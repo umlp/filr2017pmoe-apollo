@@ -12,4 +12,4 @@ groupetd: 1
 |                 | 3. Le système retourne le profil de l'utilisateur  |
 |4. L'acteur remplit ces données personnelles | 5. Le système confirme la cohérence des données saisit par l'utilisateur|
 |	|6. Le système met à jour le profil de l'utilisateur	|
-| 7.L'acteur modifie la confidencialité de ces données personnelles |8. Le système modifie l'état des donnnés de l'utilisateur de public à privé ou inversement|
+| 7.L'acteur modifie la confidentialité de ces données personnelles |8. Le système modifie l'état des donnnés de l'utilisateur de public à privé ou inversement|
