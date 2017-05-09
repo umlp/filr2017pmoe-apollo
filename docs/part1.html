@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <style>
+
+        #fieldset{
+         width:600px;
+        }
+
+         input[type=submit]{
+           background-color : gray;
+           color : white;
+           margin-top : 20px;
+           font-size :16px;
+           weight:bold
+         }
+         input[type=button]{
+           background-color : blue;
+           color : white;
+           margin-top : 10px;
+           font-size :16px;
+           weight:bold
+         }
+         #bouton1{
+           display: block;
+           margin : auto;
+           }
+
+           #TitreFilm {
+             border-width:1px;
+             width:55px;
+             height  : 20px;
+             border-style:solid;
+             border-color:black;
+             padding:3px
+           }
+
+           #DescriptionFilm {
+             border-width:1px;
+             border-style:solid;
+             border-color:black;
+
+             width:250px;
+             height  : 100px;
+
+           }
+           #logo{
+             display :block;
+             position:absolute;
+             top:130px;
+             left :400px;
+             }
+
+   </style>
+</head>
+<body>
+  <fieldset id="fieldset">
+    <input type="submit" value="Quel film m'intéresserait ?" id="bouton1"/>
+    <br/>
+    <label>Nombre de suggestions : </label>
+    <input  type="radio" id="1" name="statut" value="1" />
+    <label class="labelradio" for="1"> 1</label>
+    <input  type="radio"   id="2" name="statut" value="2" />
+    <label class="labelradio" for="2"> 2</label>
+    <input  type="radio"   id="3" name="statut" value="3" />
+    <label class="labelradio" for="3"> 3</label>
+    <fieldset>
+        <img id="logo" src="images.jpeg" alt="ASI" width="160" height="116" />
+      <p id="TitreFilm"> TITRE </p>
+
+      <p id="DescriptionFilm"> Descripton </p>
+    </fieldset>
+      <input type="button" value="Nouvelle suggestion " id="bouton2"/>
+      <input type="submit" value="Ajouter dans ma liste de film à voir" id="bouton3"/>
+  </fieldset>
+</body>
+</html>
